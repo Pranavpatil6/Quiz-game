@@ -1,0 +1,2 @@
+# Quiz-game
+A simple command-line quiz application written in Go that tests your knowledge through a series of timed questions loaded from a CSV file. You are asked a fixed number of questions, each with a set time limit to answer. The program handles user input asynchronously with goroutines and channels, enforcing the time limit per question. At the end, your score is displayed, showing how many questions you answered correctly out of the total.
